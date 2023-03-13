@@ -1,9 +1,9 @@
-from selenium import webfriver
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
 import random
 
-browser = webfriver.Chrome()
+browser = webdriver.Chrome()
 
 login_id = 'Login ID'
 login_pass = 'Password'
